@@ -29,6 +29,7 @@ import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -70,6 +71,10 @@ data class DetailedScreen(
     val ingredients: List<String>
 ):Screen {
 
+    companion object{
+        lateinit var existsCount: MutableState<Int>
+    }
+
     @OptIn(ExperimentalLayoutApi::class)
     @Composable
     override fun Content() {
@@ -91,6 +96,8 @@ data class DetailedScreen(
         var itemAdded by rememberSaveable{
             mutableIntStateOf(0)
         }
+
+        existsCount = rememberSaveable{ mutableIntStateOf(1) }
 
 
         SetBarColor(color = Color(0xfff5f7fa))
@@ -249,8 +256,8 @@ data class DetailedScreen(
                                 }
                             } else {
                                 if(dataSnapshot.child(user).child("cartItems").child(title).exists()){
-                                    val existsCount = dataSnapshot.child(user).child("cartItems").child(title).child("quantity").getValue(Int::class.java)
-                                    quantity = existsCount!!+1
+                                    existsCount.value = dataSnapshot.child(user).child("cartItems").child(title).child("quantity").getValue(Int::class.java)!!
+                                    quantity = existsCount.value+1
                                     val exists = FirebaseDatabase.getInstance().getReference("Users").child(user).child("cartItems").child(cartList.title!!)
                                     exists.child("quantity").setValue(quantity)
                                 }
