@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "377918718731",
+    "firebase_url": "https://heemcream-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "project_id": "heemcream",
+    "storage_bucket": "heemcream.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377918718731:android:ce39b9310a01509145d80e",
+        "android_client_info": {
+          "package_name": "com.app.heemcream"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWV0ASvNs9XXk6vhm1P_9AKKXfAzHVvoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
