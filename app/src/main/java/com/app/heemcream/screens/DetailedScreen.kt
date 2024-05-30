@@ -181,7 +181,7 @@ data class DetailedScreen(
                 ) {
                     ingredients.forEach{
                         SuggestionChip(modifier = Modifier,
-                            onClick = { /*TODO*/ },
+                            onClick = {  },
                             label = {
                                 Text(
                                     modifier = Modifier,
