@@ -1,8 +1,10 @@
-#HeemCream: Your Personal Ice Cream Delivery Companion
+# HeemCream: 
+Your Personal Ice Cream Delivery Companion
+
 Overview
 HeemCream is a delightful and efficient delivery app designed exclusively for individual ice cream stores. Whether you’re craving a classic scoop of vanilla or an exotic sorbet, HeemCream ensures that your favorite frozen treats are just a tap away.
 
-#Key Features
+# Key Features
 1. Intuitive User Interface with Jetpack Compose
 Our app boasts a modern and user-friendly interface built using Jetpack Compose. Say goodbye to clunky screens and hello to smooth animations and delightful transitions.
 2. Personalized Profiles
@@ -16,7 +18,7 @@ Surprise your loved ones with ice cream gift cards.
 Our app relies on Firebase Realtime Database for lightning-fast data synchronization.
 Orders, inventory, and customer profiles—all seamlessly managed.
 
-#Why is HeemCream different?
+# Why is HeemCream different?
 Local Love: We support local ice cream artisans and bring their frozen masterpieces to your doorstep.
 Chill Vibes Only: No stress, just ice cream. We’re all about spreading joy, one scoop at a time.
 Community-Driven: Join our ice cream-loving community and share your favorite flavors.
