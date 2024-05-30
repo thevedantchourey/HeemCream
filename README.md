@@ -1,6 +1,6 @@
-#Frosty Delights: Your Personal Ice Cream Delivery Companion
+#HeemCream: Your Personal Ice Cream Delivery Companion
 Overview
-Frosty Delights is a delightful and efficient delivery app designed exclusively for individual ice cream stores. Whether you’re craving a classic scoop of vanilla or an exotic sorbet, Frosty Delights ensures that your favorite frozen treats are just a tap away.
+HeemCream is a delightful and efficient delivery app designed exclusively for individual ice cream stores. Whether you’re craving a classic scoop of vanilla or an exotic sorbet, HeemCream ensures that your favorite frozen treats are just a tap away.
 
 #Key Features
 1. Intuitive User Interface with Jetpack Compose
