@@ -29,9 +29,9 @@ Our app relies on Firebase Realtime Database for lightning-fast data synchroniza
 Orders, inventory, and customer profiles—all seamlessly managed.
 
 # Why is HeemCream different?
-Local Love: We support local ice cream artisans and bring their frozen masterpieces to your doorstep.
-Chill Vibes Only: No stress, just ice cream. We’re all about spreading joy, one scoop at a time.
-Community-Driven: Join our ice cream-loving community and share your favorite flavors.
+Local Love: We support local ice cream artisans and bring their frozen masterpieces to your doorstep.<br>
+Chill Vibes Only: No stress, just ice cream. We’re all about spreading joy, one scoop at a time.<br>
+Individuality: HeemCream app is designed keep a individual store app idea.
 
 
 <img src="https://github.com/thevedantchourey/HeemCream/assets/99128806/5d8a6cba-4cd6-44a9-96c4-db392c04e543.png" width=30% height=30%>
