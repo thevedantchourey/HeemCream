@@ -1,3 +1,6 @@
+<img src="https://github.com/thevedantchourey/tittle-tattle/blob/master/assets/Picsart_23-12-13_00-13-33-373.6c5863d9252d37f4d867.png"  height=50px width=50px  style="border-radius: 50%">  
+
+
 # HeemCream: 
 Your Personal Ice Cream Delivery Companion
 
